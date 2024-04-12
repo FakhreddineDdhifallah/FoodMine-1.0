@@ -1,0 +1,144 @@
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf")
+}
+
+body {
+    font-family: roboto;
+    margin: 0em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f4f3;;
+
+}
+
+header {
+    background-color: #086788;
+}
+
+footer {
+    background-color: #086788;
+    padding: 2em;
+    margin-top: auto;
+    position: relative;
+}
+
+.ftr {
+    color: white;
+}
+
+.im {
+    height: 400px;
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 30px;
+    margin-left: 150px;
+}
+
+
+.navbar li, a {
+    color: white;
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar li:hover {
+    background-color: #f0c808;
+}
+
+.logo {
+    padding-left: 20px;
+    float: left;
+}
+
+.main {
+    padding: 20px;
+    height: 100%;
+    width: 1080px;
+    background-color:  #06aed5;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main{
+    color: white;
+}
+
+
+.bg {
+    padding-left: 9%;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #f0c808;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #776300;
+}
+
+
+
+.lst-i {
+    padding: 10px;
+}
+.lst-i :hover{
+    background-color: #f0c808;
+}
+
+.card{
+    background-color: #dd1c1a;
+    width: 250px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    border-top: #8f1614 solid 4px;
+    border-left: #8f1614 solid 4px;
+}
+
+.card .desc {
+    font-size: 14px;
+    padding: 10px
+}
+
+.card .img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.tab-i{
+    padding: 20px;
+}

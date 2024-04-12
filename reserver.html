@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/resto-logo.png" alt="logo" width="100em">
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="plats.html">plats</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="a-propos.html">à propos</a></li>
+                <li><a href="se-connecter.html">se connecter</a></li>
+                <li><a href="creer-compte.html">créer compte</a></li>
+                <li><a href="espace-admin.html">espace admin</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="bg">
+        <div class="main">
+            <div class="form" align="center">
+                <form action="index.html" method="get">
+                    <h2>Réservation</h2>
+                    <table>
+                        <tr>
+                            <td><label for="tbl">Type de table: </label></td>
+                            <td>
+                                <select name="tbl" id="tbl">
+                                    <option value="2">2 places</option>
+                                    <option value="4">4 places</option>
+                                    <option value="6">6 places</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="dt-resv">Date et temps: </label></td>
+                            <td><input type="datetime-local" name="dt-resv" id="dt-resv"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="paim">Paiement: </label></td>
+                            <td>
+                                <input type="radio" name="paim" id="paim1">en ligne
+                                <input type="radio" name="paim" id="paim2">sur place
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input class="btn" type="submit" name="resv" id="resv" value="Réserver">
+                                <input class="btn" type="reset" name="annul" id="annul" value="Annuler">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="ftr" align="center">copyright © 2023</div>
+    </footer>
+</body>
+
+</html>

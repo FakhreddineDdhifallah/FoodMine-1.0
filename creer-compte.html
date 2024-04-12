@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/resto-logo.png" alt="logo" width="100em">
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="plats.html">plats</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="a-propos.html">à propos</a></li>
+                <li><a href="se-connecter.html">se connecter</a></li>
+                <li><a href="creer-compte.html">créer compte</a></li>
+                <li><a href="espace-admin.html">espace admin</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="bg">
+        <div class="main">
+            <div class="form" align="center">
+                <form action="index.html" method="get">
+                    <img src="images/profile-logo.png" alt="profile-logo" width="150px">
+                    <h2>Créer votre compte</h2>
+                    <table>
+                        <tr>
+                            <td><label for="nom">Nom: </label></td>
+                            <td><input type="text" name="nom" id="nom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="prenom">Prénom: </label></td>
+                            <td><input type="text" name="prenom" id="prenom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail: </label></td>
+                            <td><input type="email" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mdp">Mot de passe: </label></td>
+                            <td><input type="password" name="mdp" id="mdp"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cmdp">Confirmer mot de passe: </label></td>
+                            <td><input type="password" name="cmdp" id="cmdp"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Numéro tel.: </label></td>
+                            <td><input type="tel" name="tel" id="tel"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="dt_nais">Date de naissance: </label></td>
+                            <td><input type="date" name="dt_nais" id="dt_nais"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input class="btn" type="submit" name="creer" id="creer" value="Créer">
+                                <input class="btn" type="reset" name="annul" id="annul" value="Annuler">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="ftr" align="center">copyright © 2023</div>
+    </footer>
+</body>
+
+</html>
